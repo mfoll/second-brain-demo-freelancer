@@ -1,0 +1,72 @@
+---
+type: Project
+status: Completed
+belongs_to: "[[build-design-skills]]"
+related_to:
+  - "[[accessibility]]"
+  - "[[thistlewood-catalog-audit]]"
+  - "[[marisol-vance]]"
+has:
+  - "[[sablewing-course-syllabus]]"
+  - "[[sablewing-final-assessment-2025-08-22]]"
+  - "[[wcag-audit-checklist]]"
+  - "[[screen-reader-testing]]"
+_organized: true
+---
+
+# Accessibility Deep Dive 2025
+
+My 2025 learning project: the Sablewing Academy accessibility course, taken while doing real audit work so the methods stuck. Completed 2025-08-29.
+
+## Outcome
+
+Sablewing Academy accessibility course completed and its methods applied in the [[thistlewood-catalog-audit|Thistlewood audit]]. Reached: final assessment passed on 2025-08-22, certificate filed 2025-08-29.
+
+## Current State
+
+- Completed. Course fee $1,200, about 95 hours from February to August, mostly early mornings before client work.
+- The outputs I still use: my [[wcag-audit-checklist]] (WCAG 2.2 AA, 55 success criteria grouped by page type), the [[screen-reader-testing]] routine and the [[screen-reader-commands-cheat-sheet]].
+- The course was the reason I could argue the Copperline two-teal palette with numbers in February 2026 ([[copperline-accessibility-review-2026-02-11]], [[color-contrast-for-text]]).
+- The certificate is a course certificate, not a professional certification. Whether to get one is [[should-i-get-an-accessibility-certification]].
+
+## Scope and Boundaries
+
+The course, my practice exercises and the method notes that came out of it. The Thistlewood audit itself, its findings and client relationship belong to [[thistlewood-catalog-audit]] under [[deliver-client-work]]. The course portal and its videos stay in Sablewing's platform; I keep only my notes and the syllabus outline.
+
+## Working Context
+
+I chose Sablewing over two other courses in January 2025 because it had live review sessions with an instructor ([[marisol-vance|Marisol Vance]]) and a practical final assessment, not a multiple-choice exam. The plan was in [[learning-plan-2025]].
+
+Timing worked out by luck more than design. Module 4 (screen readers and keyboard) ran in April, three weeks before the Thistlewood kickoff on 2025-05-12, so I tested the catalog search with NVDA-style and VoiceOver-style workflows I had practised a month earlier. Module 7 (forms and errors) landed during the audit of the account pages. Marisol's feedback on my mid-course exercise changed how I wrote findings: one finding per barrier, the success criterion, who it blocks, and a concrete fix, ranked by how many tasks it breaks. That structure is in the checklist and in the Thistlewood report.
+
+The final assessment on 2025-08-22 was a two-hour audit of a sample e-commerce checkout with a written report. I passed with feedback that my severity ratings were too generous to visual issues and too harsh on missing landmarks ([[sablewing-final-assessment-2025-08-22]]).
+
+What I would do differently: start the screen reader practice before the course module, not during it. I spent the first week of April mostly fighting keyboard shortcuts.
+
+## Active Workflows
+
+None; completed. The checklist is maintained as part of [[accessibility]] practice and gets a review when WCAG changes.
+
+## Next Actions
+
+- [ ] Review the checklist against WCAG 2.2 before the Tallowmere report goes out (owned by [[tallowmere-ticketing-audit]]).
+
+## Open Questions
+
+- [[should-i-get-an-accessibility-certification]]
+
+## Important Notes
+
+- [[sablewing-course-syllabus]]
+- [[sablewing-module-notes]]
+- [[wcag-audit-checklist]]
+- [[screen-reader-testing]]
+- [[wikipedia-web-content-accessibility-guidelines]]
+
+## Maintenance Log
+
+- 2025-08-29: Certificate received; project completed.
+- 2025-08-22: Final assessment passed.
+- 2025-05-12: Thistlewood audit started; course methods in use.
+- 2025-04-07: Module 4, screen readers, started.
+- 2025-02-03: Course started.
