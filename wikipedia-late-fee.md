@@ -1,0 +1,33 @@
+---
+type: Source
+source_type: Wikipedia article
+url: https://en.wikipedia.org/wiki/Late_fee
+date_accessed: 2025-06-09
+licence: CC BY-SA 4.0
+belongs_to: "[[contract-terms-update]]"
+related_to:
+  - "[[payment-terms]]"
+  - "[[standard-services-agreement]]"
+_organized: true
+---
+
+# Late fee
+
+## Summary
+
+Describes late fees: charges for paying a bill, or returning a rented or borrowed item, after its due date. They are most often associated with creditors, rental businesses and libraries, and are usually calculated per day or per item.
+
+## Why It Matters
+
+Read during the [[contract-terms-update]], after the Crumbhollow invoice went 67 days unpaid ([[crumbhollow-final-payment-2025-07-04]]). It helped me see the late fee as a nudge on the payment date, not a source of income. I chose 1.5% a month on overdue balances, on [[nathaniel-brook]]'s advice to state it as a monthly percentage.
+
+## Key Details
+
+- A late fee is a charge for paying after the due date, usually counted per day and per item.
+- Freelancers are mentioned among those who charge late fees on delayed payments.
+- Fees charged by banks, landlords and utilities draw criticism, and some places have capped or banned them. I did not rely on the article for any rule and had the clause reviewed instead.
+- My clause has never been invoked; Paperbird can add it automatically but I keep it manual.
+
+## Source Links
+
+- [Late fee](https://en.wikipedia.org/wiki/Late_fee) (Wikipedia, CC BY-SA 4.0)
