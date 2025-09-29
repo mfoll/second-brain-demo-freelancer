@@ -1,0 +1,32 @@
+---
+type: Question
+status: Open
+belongs_to: "[[copperline-online-banking-redesign]]"
+related_to:
+  - "[[renata-solberg]]"
+  - "[[portfolio-site-rebuild]]"
+  - "[[ledgerleaf-case-study-approval-email]]"
+_organized: true
+---
+
+# Will Copperline Approve A Case Study
+
+Will Copperline Credit Union let me publish a case study of the online banking redesign, and with what?
+
+## Why it matters
+
+The Copperline numbers (SUS 58 to 76; transfers 5 of 12 to 9 of 10) are the research outcomes Velora said my case studies lacked ([[velora-feedback-call-2026-06-03]]). The [[portfolio-site-rebuild]] targets three evidence-led case studies by 2026-11-30; without Copperline I have Ledgerleaf and Thistlewood only.
+
+## Where it stands
+
+- The statement of work forbids publishing anything without written approval ([[copperline-statement-of-work]]).
+- Renata Solberg is supportive. Communications and the board chair must also agree; they worry about implying the current site is bad while it is still live.
+- Nothing is published or shown in pitches until approval. In pitches I say "a 41,000-member credit union" and give no numbers.
+
+## What I will ask for
+
+A draft modelled on the Ledgerleaf approval ([[ledgerleaf-case-study-approval-email]]): the SUS and completion numbers, wireframe-level before and after, no real screens, Copperline named only if they want. Timing: after the bill pay handoff, when the redesign has a launch date, so it reads as their success.
+
+## Fallback
+
+An anonymised version ("a regional credit union") if they approve numbers but not the name.
