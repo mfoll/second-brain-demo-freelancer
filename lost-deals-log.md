@@ -1,0 +1,34 @@
+---
+type: Source
+source_type: Internal spreadsheet
+date_accessed: 2026-10-16
+belongs_to: "[[win-new-work]]"
+related_to:
+  - "[[client-pipeline-tracker]]"
+  - "[[velora-pitch]]"
+_organized: true
+---
+
+# Lost Deals Log
+
+A tab in the pipeline spreadsheet with one line per lost or dropped lead and the best reason I have. 15 rows from 2025-01 to 2026-10.
+
+## Key Details
+
+- Budget too small for the scope: 5.
+- Timing (they needed someone sooner, or I was booked): 4.
+- Went quiet after the proposal: 3, including the two audit leads of March and April 2026 that received three options.
+- Lost to a competitor: 2, Velora (2026-05-29, Orchard & Vane) and a 2025 marketing-site job that went to a cheaper freelancer.
+- Not a fit (asked for development or branding only): 1.
+
+## Why It Matters
+
+The two quiet audit leads plus Velora are the evidence behind the [[pricing-check-in-2026-06-18]]. Budget problems are why the inquiry form now asks for a range ([[website-inquiry-form]]).
+
+## Caveats
+
+"Went quiet" reasons are my guesses unless the client told me. Only Velora gave formal feedback ([[velora-feedback-call-2026-06-03]]).
+
+## Source Location
+
+My drive, Business/Sales, "Pipeline 2025-" spreadsheet, tab "Lost".
