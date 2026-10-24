@@ -27,11 +27,11 @@ The vault was deployed from the [Second Brain template](https://github.com/mfoll
 | Memory | About 180 Sources, 50 Events, 35 Questions, 30 Concepts, 15 Opinions, 15 Recaps, 40 people. |
 | Real material | About 60 Sources are real public pages: Wikipedia articles on design methods, usability, accessibility, freelancing and pricing, and official documentation of WCAG and design tools, cited with title, URL and access date and summarised in our own words. Their "Why It Matters" sections describe how the fictional designer uses them. |
 | Operations | `AGENTS.md`, Type notes, Procedures, Skills and ADRs from the template, unchanged except for the deployment steps. |
-| History | Git history from January 2025 to October 2026, one commit per month of captures. |
+| History | Git history from January 2025 to October 2026, one commit for each month that had captures. |
 
 ## Open it
 
-- **Any Markdown editor.** Clone the repository and open the folder. Start from [[vault]].
+- **Any Markdown editor.** Clone the repository and open the folder; notes sit flat at the root by design. Start from [vault](vault.md).
 - **[Tolaria](https://tolaria.md/).** Open the folder as a vault for typed sidebars, relationship panels and saved views.
 - **[Brain Graph](https://github.com/mfoll/brain-graph).** See the whole vault as a map colored by project:
 
@@ -39,7 +39,7 @@ The vault was deployed from the [Second Brain template](https://github.com/mfoll
   npx github:mfoll/brain-graph path/to/second-brain-demo-freelancer
   ```
 
-- **A coding agent.** Run Claude Code, Codex or Gemini CLI in the folder. They read [[AGENTS]] (through `CLAUDE.md` and `GEMINI.md` where needed) and follow the vault's Procedures.
+- **A coding agent.** Run Claude Code, Codex or Gemini CLI in the folder. They read [AGENTS](AGENTS.md) (through `CLAUDE.md` and `GEMINI.md` where needed) and follow the vault's Procedures.
 
 ## Try this
 
@@ -47,19 +47,19 @@ Each question has a known answer in the vault, so you can check what an agent fi
 
 | Ask | Where the answer lives |
 | --- | --- |
-| Why did I stop quoting day rates, and when do I still use them? | A decision on 2025-11-20 retired them; a check-in on 2026-06-18 brought them back for small work. See [[pricing-model-review]] and [[pricing-check-in-2026-06-18]]. |
-| What did I learn from losing the Velora pitch? | Three reasons from the client's feedback call, and three changes. See [[velora-feedback-call-2026-06-03]] and [[proposal-template-rework]]. |
-| Why does the Copperline palette have two teals? | An accessibility review on 2026-02-11, with the brand director still disagreeing. See [[copperline-accessibility-review-2026-02-11]]. |
-| How much of each payment do I set aside for taxes, and why? | The rate changed after the 2025 return. See [[set-aside-taxes-from-each-payment]]. |
-| Should Lintel Kit get a team license? | Still open. See [[should-lintel-kit-get-a-team-license]]. |
-| Why do new contracts ask for a 50% deposit? | One client paid 67 days late. See [[contract-terms-update]]. |
+| Why did I stop quoting day rates, and when do I still use them? | A decision on 2025-11-20 retired them; a check-in on 2026-06-18 brought them back for small work. See [pricing-model-review](pricing-model-review.md) and [pricing-check-in-2026-06-18](pricing-check-in-2026-06-18.md). |
+| What did I learn from losing the Velora pitch? | Three reasons from the client's feedback call, and three changes. See [velora-feedback-call-2026-06-03](velora-feedback-call-2026-06-03.md) and [proposal-template-rework](proposal-template-rework.md). |
+| Why does the Copperline palette have two teals? | An accessibility review on 2026-02-11, with the brand director still disagreeing. See [copperline-accessibility-review-2026-02-11](copperline-accessibility-review-2026-02-11.md). |
+| How much of each payment do I set aside for taxes, and why? | The rate changed after the 2025 return. See [set-aside-taxes-from-each-payment](set-aside-taxes-from-each-payment.md). |
+| Should Lintel Kit get a team license? | Still open. See [should-lintel-kit-get-a-team-license](should-lintel-kit-get-a-team-license.md). |
+| Why do new contracts ask for a 50% deposit? | One client paid 67 days late. See [contract-terms-update](contract-terms-update.md). |
 
 Workflows to try with an agent:
 
 - **Resume a project:** "Resume the Copperline Online Banking Redesign."
 - **Process the Inbox:** about eight raw captures from the week before 23 October 2026 have `_organized: false`; each has an obvious home.
 - **Ingest a page:** give any Wikipedia article on usability, accessibility or freelancing and ask where it belongs.
-- **Lint the vault:** the audits should find one unresolved link and one homeless Concept, both left in on purpose.
+- **Lint the vault:** the audits should report one link to a missing note and one Concept that belongs to nothing, both left in on purpose. Informational lines, such as external contacts without a parent, are expected.
 
 ## Scope and privacy
 
@@ -67,7 +67,7 @@ The fictional designer's client work, new business, business administration, por
 
 ## Template updates
 
-The vault was deployed from the template on 2026-10-23. Later template improvements can be ported with [[upgrade-existing-vault-from-template|Upgrade an Existing Vault From the Template]], as a reviewed change: an agent proposes each port, and a person approves it. Never run it unattended. A vault in use is expected to differ from the template on purpose, in its ADRs, Procedures, Skills and instructions.
+The vault was deployed from the template on 2026-10-23. Later template improvements can be brought in with [Upgrade an Existing Vault From the Template](upgrade-existing-vault-from-template.md), as a reviewed change: an agent proposes each change, and a person approves it. Never run it unattended. A vault in use is expected to differ from the template on purpose, in its ADRs, Procedures, Skills and instructions.
 
 ## How it was made
 
@@ -75,7 +75,7 @@ An AI agent drafted the world specification (the designer, clients, people, proj
 
 ## Storage and backup
 
-Git history in this repository. A demo that edits notes can be reset with `git checkout .` and `git clean -fd`.
+The notes are plain files, and their history is this Git repository. To undo edits made while trying the demo, run `git checkout .`; `git clean -n` lists any new files, which `git clean -f` would delete.
 
 ## More example vaults
 
