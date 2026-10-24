@@ -12,6 +12,8 @@ A demo Second Brain: about 530 linked Markdown notes holding the working memory 
 
 ![Brennick Design Brain in Brain Graph, colored by the Project or Responsibility each note rolls up to](assets/brennick-design-brain-graph.png)
 
+**[Explore this vault in the live demo](https://mfoll.github.io/brain-graph-demo/?vault=brennick-design-brain)**: its map in Brain Graph, in your browser, with nothing to install.
+
 > [!warning]
 > Everything about the practice is fictional: Talia Brennick, every client, peer and adviser, Copperline Credit Union, Orchard & Vane, Velora Mobility, Lintel Kit, Tidewell Commons, the courses, fees, test scores and results. Any resemblance to real people or organisations is accidental. Only the Sources marked as Wikipedia articles, documentation or standards are real.
 
